@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div>
-      <h1 class="text-center">Search Location For Weather</h1>
+      <h1 class="text-center">Search location for Weather</h1>
       <form
         class="form-group"
         [formGroup]="weatherSearchForm"
@@ -31,6 +31,9 @@
           {{ this.weatherData?.location.country }}
         </p>
         <p *ngIf="this.weatherData?.current.temp_c" class="form-text weather-number">{{ this.weatherData?.current.temp_c }}°C</p>
+        <p class="form-text">
+          {{ this.weatherData?.location.localtime }}
+        </p>
         <p class="form-text">
           {{ this.weatherData?.current.condition.text }}
         </p>
