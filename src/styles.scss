@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+  font-weight: 900;
+}
+
+body {
+    background-image: url("../img/rainy-stormy-darkness-wet-weather-background-depressed-sad-background_bzxjr4x7h__F0000.png");
+    background-size :cover;
+    background-repeat: no-repeat;
 }
