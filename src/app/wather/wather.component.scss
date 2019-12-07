@@ -63,7 +63,7 @@
 }
 
 .form-text {
-  text-align:center;
+  text-align: center;
   color: #fff;
 }
 
@@ -73,6 +73,24 @@
 
 .weather-number {
   font-size: 76px;
+}
+
+.weather-img {
+  display: block;
+  border-radius: 26%;
+  margin: 15px auto 0px auto;
+  animation: move 1s infinite alternate;
+}
+
+@keyframes move {
+  from {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+  }
 }
 
 @media only screen and (max-width: 1280px) {
